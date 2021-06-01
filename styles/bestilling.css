@@ -26,16 +26,19 @@
 }
 
 .et_bestilling .hent {
-  width: 20%;
+  width: 22%;
   position: relative;
-  left: 130%;
-
-  margin-top: 10px;
+  left: 122%;
 
   background-color: #517349;
   color: white;
-  border: 0.125em solid #517349;
-  font-size: 1em;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: inline-block;
+  padding: 0.5rem;
+  box-shadow: 0px 6px 8px grey;
+  top: -64px;
 }
 
 .et_bestilling .bestil {
@@ -43,12 +46,15 @@
   position: relative;
   left: 60%;
 
-  margin-top: 10px;
-
   background-color: #517349;
   color: white;
-  border: 0.125em solid #517349;
-  font-size: 1em;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: inline-block;
+  padding: 0.5rem;
+  box-shadow: 0px 6px 8px grey;
+  top: -64px;
 }
 
 .et_bestilling .hent:hover {
@@ -85,15 +91,18 @@
 
 .to_bestilling .inspiration {
   position: relative;
-  width: 36%;
-  left: 54%;
+  width: 53%;
+  left: 40%;
+  top: -60px;
 
-  margin-top: 10px;
-
-  background-color: #517349;
+  background: #517349;
   color: white;
-  border: 0.125em solid #517349;
-  font-size: 1em;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: inline-block;
+  padding: 0.5rem;
+  box-shadow: 0px 6px 8px grey;
 }
 
 @media (max-width: 600px) {
@@ -102,28 +111,39 @@
   }
 
   .et_bestilling img {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
+    margin-left: -5px;
   }
 
-  .et_bestilling .ordre_info {
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: left;
+  .et_bestilling .ordre_info p {
+    width: 85vw;
+    position: relative;
+    left: 50px;
   }
 
   .et_bestilling .hent {
-    width: 20%;
+    width: 27%;
     position: relative;
-    left: 55%;
+    left: 16%;
     margin-top: 10px;
   }
 
   .et_bestilling .bestil {
     width: 20%;
     position: relative;
-    left: 60%;
+    left: 24%;
     margin-top: 10px;
+
+    background-color: #517349;
+    color: white;
+    border: 0.125rem solid #517349;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    box-shadow: 0px 6px 8px grey;
+    top: -64px;
   }
 
   .to_bestilling {
@@ -145,9 +165,13 @@
     width: 34%;
     left: 43%;
 
-    background-color: #517349;
+    background: #517349;
     color: white;
-    border: 0.125em solid #517349;
-    font-size: 1em;
+    border: 0.125rem solid #517349;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    display: inline-block;
+    padding: 0.5rem;
+    box-shadow: 0px 6px 8px grey;
   }
 }
