@@ -39,16 +39,6 @@ video {
   margin-bottom: 10rem;
 }
 
-#interview_video {
-  background-color: black;
-  object-fit: cover;
-  height: 10vh;
-  width: 100%;
-}
-#interview {
-  opacity: 0.8;
-}
-
 @media (min-width: 1300px) {
   #section_one {
     display: grid;

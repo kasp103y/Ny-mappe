@@ -2,21 +2,7 @@
 font-family: 'Roboto', sans-serif; */
 
 /***********************************************BURGERMENU*****************************************/
-
-.hidden {
-  opacity: 0;
-  transform: translateX(-100%);
-}
-
-#menu_knap {
-  display: inline-block;
-}
-
-#menu {
-  transition: transform 0.3s;
-  transform-origin: top left;
-}
-
+/*
 #streg1 {
   width: 5vw;
   height: 1vw;
@@ -37,6 +23,7 @@ font-family: 'Roboto', sans-serif; */
   background-color: black;
   margin: 0.3rem;
 }
+*/
 
 img,
 video {
