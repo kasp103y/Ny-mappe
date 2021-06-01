@@ -64,13 +64,6 @@ p {
   grid-template-columns: 1fr 1fr;
 }
 
-nav ul {
-  display: flex;
-  justify-content: end;
-  gap: 6rem;
-  padding: 1.5em;
-}
-
 li {
   list-style: none;
   margin: 0;
@@ -104,6 +97,7 @@ a:hover {
 }
 #kontakt {
   display: flex;
+  flex-flow: wrap;
   justify-content: center;
   gap: 2em;
   padding: 1.5em;
@@ -130,6 +124,13 @@ footer {
 
 @media (min-width: 1000px) {
   main {
-    margin: 5em 20em;
+    margin: 10px 200px 10px 200px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 6rem;
+    padding: 1.5em;
   }
 }
