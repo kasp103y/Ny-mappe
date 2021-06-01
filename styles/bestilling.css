@@ -1,6 +1,7 @@
-main {
-  margin-left: 10%;
-  margin-right: 10%;
+.heading_hero p {
+  position: relative;
+  left: 48rem;
+  color: #517349;
 }
 
 .et_bestilling {
@@ -14,10 +15,14 @@ main {
 
 .et_bestilling img {
   width: 30vw;
+  left: 7%;
+  position: relative;
 }
 
-.et_bestilling .ordre_info {
+.et_bestilling .ordre_info p {
   width: 30vw;
+  position: relative;
+  left: 66px;
 }
 
 .et_bestilling .hent {
@@ -57,15 +62,38 @@ main {
 }
 
 .to_bestilling {
+  background-color: #b6c6b8;
+  padding: 2em;
+  margin-bottom: 10rem;
+}
+
+.to_bestilling {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
+.to_bestilling p {
+  margin-top: 10px;
+}
+
 .to_bestilling img {
   width: 30vw;
   margin-left: 20px;
+}
+
+.to_bestilling .inspiration {
+  position: relative;
+  width: 36%;
+  left: 54%;
+
+  margin-top: 10px;
+
+  background-color: #517349;
+  color: white;
+  border: 0.125em solid #517349;
+  font-size: 1em;
 }
 
 @media (max-width: 600px) {
@@ -75,30 +103,51 @@ main {
 
   .et_bestilling img {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .et_bestilling .ordre_info {
     width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
   }
 
   .et_bestilling .hent {
     width: 20%;
     position: relative;
-    left: auto;
+    left: 55%;
+    margin-top: 10px;
   }
 
   .et_bestilling .bestil {
     width: 20%;
     position: relative;
     left: 60%;
+    margin-top: 10px;
   }
 
   .to_bestilling {
     display: block;
   }
 
+  .to_bestilling h2 {
+    margin-bottom: 20px;
+  }
+
   .to_bestilling img {
     width: 100%;
     margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .to_bestilling .inspiration {
+    position: relative;
+    width: 34%;
+    left: 43%;
+
+    background-color: #517349;
+    color: white;
+    border: 0.125em solid #517349;
+    font-size: 1em;
   }
 }
