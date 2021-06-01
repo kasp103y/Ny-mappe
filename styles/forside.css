@@ -30,12 +30,12 @@ video {
 }
 
 #section_one {
-  padding: 5rem;
+  padding: 2em;
 }
 
 #section_two {
   background-color: #b6c6b8;
-  padding: 5rem;
+  padding: 2em;
   margin-bottom: 10rem;
 }
 
@@ -44,11 +44,13 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    padding: 5rem;
   }
 
   #section_two {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    padding: 5rem;
   }
 }
