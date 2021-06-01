@@ -2,7 +2,7 @@
   height: 80vh;
   width: 100%;
   display: grid;
-  mix-blend-mode: multiply;
+  background-color: rgb(155, 182, 163);
 }
 #hero #heading_1 {
   grid-area: 1/1;
@@ -17,7 +17,7 @@
   object-position: 50% 50%;
 
   opacity: 0.8;
-  mix-blend-mode: multiply;
+  mix-blend-mode: color-burn;
 }
 
 video {
@@ -30,27 +30,37 @@ video {
 }
 
 #section_one {
-  padding: 2em;
+  padding: 2rem;
 }
 
 #section_two {
   background-color: #b6c6b8;
-  padding: 2em;
+  padding: 2rem;
   margin-bottom: 10rem;
 }
 
-@media (min-width: 1000px) {
+#interview_video {
+  background-color: black;
+  object-fit: cover;
+  height: 10vh;
+  width: 100%;
+}
+#interview {
+  opacity: 0.8;
+}
+
+@media (min-width: 1300px) {
   #section_one {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 2rem;
     padding: 5rem;
   }
 
   #section_two {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 2rem;
     padding: 5rem;
   }
 }
