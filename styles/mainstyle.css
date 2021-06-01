@@ -9,7 +9,6 @@ video {
   box-shadow: 0 7px 8px grey;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -19,13 +18,23 @@ body {
   background-color: #f2f2f2;
 }
 
+#heading_nav {
+  color: #517349;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+}
+
+#heading_nav:hover {
+  border-bottom: none;
+}
+
 h2 {
   color: #517349;
   font-family: "EB Garamond", serif;
   font-size: 3rem;
 }
 
-h1 {
+#heading_1 {
   color: white;
   font-family: "EB Garamond", serif;
   font-size: 6em;
@@ -33,14 +42,25 @@ h1 {
   margin: auto;
   border: 0.125rem solid white;
   padding: 0.25rem;
-  
 }
+
+h1 {
+  color: #517349;
+  font-family: "EB Garamond", serif;
+  font-size: 6em;
+  text-align: center;
+  margin: auto;
+
+  padding: 0.25rem;
+}
+
 p {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
-#nav_bar {display: grid;
+#nav_bar {
+  display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -49,7 +69,6 @@ nav ul {
   justify-content: end;
   gap: 6rem;
   padding: 1.5em;
-  
 }
 
 li {
@@ -64,27 +83,43 @@ a {
   text-decoration: none;
   font-style: "roboto", sans-serif;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 a:hover {
   border-bottom: 0.2rem solid #517349;
   color: #517349;
 }
-#kontakt {display: flex;
-justify-content: center;
-gap: 2em;
-padding: 1.5em;}
 
-footer {font-family: "roboto", sans-serif;
-font-style: normal;
+.button {
+  background-color: #517349;
+  color: white;
+  border: 0.125em solid #517349;
+  font-size: 1em;
+  font-style: "roboto", sans-serif;
+}
+
+.button:hover {
+  color: #517349;
+  background-color: white;
+}
+#kontakt {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1.5em;
+}
+
+footer {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
 }
 
 #green_bar {
   width: 100vw;
   height: 3vh;
   background-color: #b6c6b8;
-  box-shadow: 0px 6px 8px grey
+  box-shadow: 0px 6px 8px grey;
 }
 
 #green_bar_bottom {
@@ -94,12 +129,8 @@ font-style: normal;
   box-shadow: 0px -6px 8px grey;
 }
 
-
-
 @media (min-width: 1000px) {
   main {
-    margin: 300px:
+    margin: 5em 20em;
   }
 }
-
-
