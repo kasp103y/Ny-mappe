@@ -2,28 +2,6 @@
 font-family: 'Roboto', sans-serif; */
 
 /***********************************************BURGERMENU*****************************************/
-/*
-#streg1 {
-  width: 5vw;
-  height: 1vw;
-  background-color: black;
-  margin: 0.3rem;
-}
-
-#streg2 {
-  width: 5vw;
-  height: 1vw;
-  background-color: black;
-  margin: 0.3rem;
-}
-
-#streg3 {
-  width: 5vw;
-  height: 1vw;
-  background-color: black;
-  margin: 0.3rem;
-}
-*/
 
 img,
 video {
@@ -51,6 +29,7 @@ body {
 
 #heading_nav:hover {
   border-bottom: none;
+  color: #21331d;
 }
 
 h2 {
@@ -108,14 +87,14 @@ a:hover {
 }
 
 header {
-  position: fixed;
   background-color: white;
   z-index: 100;
 }
 nav ul {
   padding: 1.5rem;
-  width: 56.5vw;
+  width: 56;
   height: 100%;
+  overflow: hidden;
 }
 
 .button {
@@ -177,15 +156,6 @@ address {
     justify-content: end;
     gap: 6rem;
     padding: 1.5rem;
-  }
-
-  #menu_knap {
-    display: none;
-  }
-
-  #menu.hidden {
-    transform: translateX(0);
-    opacity: 1;
-    transition: transform 0s;
+    margin-right: 4rem;
   }
 }
