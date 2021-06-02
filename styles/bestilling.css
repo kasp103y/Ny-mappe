@@ -44,7 +44,7 @@
 }
 .et_bestilling img {
   width: 30vw;
-  left: 7%;
+  left: 2rem;
   position: relative;
 }
 .to_bestilling .button {
@@ -93,7 +93,7 @@
 
 .to_bestilling img {
   width: 30vw;
-  margin-left: 20px;
+  margin-left: 6rem;
 }
 
 @media (max-width: 1300px) {
@@ -108,7 +108,7 @@
   .et_bestilling img {
     width: 90%;
     margin-bottom: 2rem;
-    margin-left: -5px;
+    margin-left: -1rem;
   }
 
   .et_bestilling .ordre_info p {
@@ -128,14 +128,9 @@
     display: block;
   }
 
-  .to_bestilling h2 {
-    margin-bottom: 20px;
-  }
-
   .to_bestilling img {
     width: 100%;
     margin-left: 0;
-    margin-top: 10px;
   }
 
   .to_bestilling .button {
