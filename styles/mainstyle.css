@@ -1,8 +1,6 @@
 /* font-family: 'EB Garamond', serif;
 font-family: 'Roboto', sans-serif; */
 
-/***********************************************BURGERMENU*****************************************/
-
 img,
 video {
   width: 100%;
@@ -15,6 +13,10 @@ video {
 * {
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding: 1.5rem;
 }
 
 body {
@@ -88,12 +90,12 @@ a:hover {
 
 header {
   background-color: white;
-  z-index: 100;
+  border-bottom: 0.125rem solid grey;
 }
+
 nav ul {
   padding: 1.5rem;
-  width: 56;
-  height: 100%;
+
   overflow: hidden;
 }
 
@@ -105,6 +107,7 @@ nav ul {
   margin-top: 5rem;
   display: inline-block;
   padding: 0.5rem;
+  margin-bottom: 1rem;
   box-shadow: 0px 6px 8px grey;
 }
 
@@ -122,33 +125,17 @@ nav ul {
 
 footer {
   font-family: "roboto", sans-serif;
+  background-color: white;
+  border-top: 0.125rem solid grey;
 }
 
 address {
   font-style: normal;
 }
 
-#green_bar {
-  width: 100vw;
-  height: 3vh;
-  background-color: #b6c6b8;
-  box-shadow: 0px 6px 8px grey;
-}
-
-#green_bar_bottom {
-  width: 100vw;
-  height: 3vh;
-  background-color: #b6c6b8;
-  box-shadow: 0px -6px 8px grey;
-}
-
 @media (min-width: 1000px) {
   main {
     margin: 10px 200px 10px 200px;
-  }
-  #nav_bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 
   nav ul {
