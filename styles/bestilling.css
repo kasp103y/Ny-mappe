@@ -26,48 +26,6 @@
   left: 66px;
 }
 
-.et_bestilling .hent {
-  width: 22%;
-  position: relative;
-  left: 122%;
-
-  background-color: #517349;
-  color: white;
-  border: 0.125rem solid #517349;
-  font-size: 1.5rem;
-  margin-top: 5rem;
-  display: inline-block;
-  padding: 0.5rem;
-  box-shadow: 0px 6px 8px grey;
-  top: -64px;
-}
-
-.et_bestilling .bestil {
-  width: 20%;
-  position: relative;
-  left: 60%;
-
-  background-color: #517349;
-  color: white;
-  border: 0.125rem solid #517349;
-  font-size: 1.5rem;
-  margin-top: 5rem;
-  display: inline-block;
-  padding: 0.5rem;
-  box-shadow: 0px 6px 8px grey;
-  top: -64px;
-}
-
-.et_bestilling .hent:hover {
-  color: #517349;
-  background-color: white;
-}
-
-.et_bestilling .bestil:hover {
-  color: #517349;
-  background-color: white;
-}
-
 .to_bestilling {
   background-color: #b6c6b8;
   padding: 1.5rem;
@@ -88,27 +46,6 @@
 .to_bestilling img {
   width: 30vw;
   margin-left: 20px;
-}
-
-.to_bestilling .inspiration {
-  position: relative;
-  width: 53%;
-  left: 40%;
-  top: -60px;
-
-  background: #517349;
-  color: white;
-  border: 0.125rem solid #517349;
-  font-size: 1.5rem;
-  margin-top: 5rem;
-  display: inline-block;
-  padding: 0.5rem;
-  box-shadow: 0px 6px 8px grey;
-}
-
-.to_bestilling .inspiration:hover {
-  color: #517349;
-  background-color: white;
 }
 
 @media (max-width: 600px) {
@@ -132,30 +69,6 @@
     left: 5px;
   }
 
-  .et_bestilling .hent {
-    width: 27%;
-    position: relative;
-    left: 16%;
-    margin-top: 10px;
-  }
-
-  .et_bestilling .bestil {
-    width: 20%;
-    position: relative;
-    left: 24%;
-    margin-top: 10px;
-
-    background-color: #517349;
-    color: white;
-    border: 0.125rem solid #517349;
-    font-size: 1.5rem;
-    margin-top: 5rem;
-    display: inline-block;
-    padding: 0.5rem;
-    box-shadow: 0px 6px 8px grey;
-    top: -64px;
-  }
-
   .to_bestilling {
     display: block;
   }
@@ -170,18 +83,4 @@
     margin-top: 10px;
   }
 
-  .to_bestilling .inspiration {
-    position: relative;
-    width: 34%;
-    left: 43%;
-
-    background: #517349;
-    color: white;
-    border: 0.125rem solid #517349;
-    font-size: 1.5rem;
-    margin-top: 5rem;
-    display: inline-block;
-    padding: 0.5rem;
-    box-shadow: 0px 6px 8px grey;
-  }
-}
+  
