@@ -236,9 +236,8 @@ h2 {
 
 h3 {
   color: #517349;
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
 }
 
 #heading_1 {
@@ -331,6 +330,17 @@ nav ul {
   gap: 2rem;
   padding: 1.5rem;
 }
+
+/* line awesome icons */
+.la-facebook-square {
+  font-size: 2rem;
+}
+
+.la-instagram {
+  font-size: 2rem;
+}
+
+/* line awesome icont end */
 
 footer {
   font-family: "roboto", sans-serif;

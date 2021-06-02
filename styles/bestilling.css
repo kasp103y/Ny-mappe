@@ -83,7 +83,7 @@
 .to_bestilling {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 1rem;
+  margin-top: -4rem;
   margin-bottom: 10rem;
 }
 
@@ -96,7 +96,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .heading_hero h3 {
     left: 1rem;
   }
