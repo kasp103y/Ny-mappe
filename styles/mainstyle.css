@@ -3,7 +3,7 @@ font-family: 'Roboto', sans-serif; */
 
 /*burger*/
 
-#menu {
+/*#menu {
   top: 0;
   left: 0;
   width: 100vw;
@@ -74,7 +74,7 @@ font-family: 'Roboto', sans-serif; */
   opacity: 0;
 }
 
-/* #burger_btn */
+ #burger_btn 
 
 #burger_btn {
   width: 40px;
@@ -101,7 +101,7 @@ font-family: 'Roboto', sans-serif; */
   transform: translateY(10px);
 }
 
-/* #burger_btn OPEN / Hide*/
+#burger_btn OPEN / Hide
 
 #burger_btn.open .stroke {
   animation-duration: 1s;
@@ -138,7 +138,7 @@ font-family: 'Roboto', sans-serif; */
   animation-name: kf_stroke_bottom;
 }
 
-/* Keyframes */
+Keyframes 
 
 @keyframes kf_stroke_center {
   0% {
@@ -188,7 +188,8 @@ font-family: 'Roboto', sans-serif; */
   }
 }
 
-/*burgerslut*/
+
+burgerslut*/
 
 img,
 video {
@@ -262,6 +263,7 @@ p {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 li {
@@ -309,6 +311,7 @@ nav ul {
   color: #517349;
   background-color: white;
 }
+
 #kontakt {
   display: flex;
   flex-flow: wrap;
@@ -333,7 +336,7 @@ address {
     margin: 10px 200px 10px 200px;
   }
 
-  #menu ul {
+  nav ul {
     display: flex;
     justify-content: end;
     gap: 6rem;

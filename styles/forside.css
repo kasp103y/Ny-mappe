@@ -29,25 +29,28 @@ video {
   height: auto;
 }
 
-#section_one {
+#section_one,
+#section_three {
   padding: 1.5rem;
 }
 
-#section_two {
+#section_two,
+#section_four {
   background-color: #b6c6b8;
   margin-bottom: 10rem;
   padding: 1.5rem;
 }
 
-@media (min-width: 1300px) {
-  #section_one {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 5rem;
-  }
+.link_img:hover {
+  border: 0.25rem solid #517349;
+  transition: 3ms;
+}
 
-  #section_two {
+@media (min-width: 1300px) {
+  #section_one,
+  #section_two,
+  #section_three,
+  #section_four {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
