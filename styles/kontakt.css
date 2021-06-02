@@ -74,3 +74,11 @@ h4 {
   grid-row: 3 / 4;
   grid-column: 1 / 2;
 }
+
+.la-facebook-square {
+  font-size: 2rem;
+}
+
+.la-instagram {
+  font-size: 2rem;
+}
