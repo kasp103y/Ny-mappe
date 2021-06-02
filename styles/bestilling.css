@@ -43,8 +43,8 @@
   top: -10rem;
 }
 .et_bestilling img {
-  width: 30vw;
-  left: 2rem;
+  width: 100%;
+  left: 0rem;
   position: relative;
 }
 .to_bestilling .button {
@@ -69,9 +69,8 @@
 }
 
 .et_bestilling .ordre_info p {
-  width: 30vw;
   position: relative;
-  left: 66px;
+  left: 5rem;
 }
 
 .to_bestilling {
@@ -92,7 +91,7 @@
 }
 
 .to_bestilling img {
-  width: 30vw;
+  width: 30rem;
   margin-left: 6rem;
 }
 
@@ -106,13 +105,13 @@
   }
 
   .et_bestilling img {
-    width: 90%;
     margin-bottom: 2rem;
     margin-left: -1rem;
+    left: 1rem;
   }
 
   .et_bestilling .ordre_info p {
-    width: 85vw;
+    width: 100%;
     position: relative;
     left: 5px;
   }
