@@ -83,7 +83,7 @@
 .to_bestilling {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 1rem;
+  margin-top: -4rem;
   margin-bottom: 10rem;
 }
 
