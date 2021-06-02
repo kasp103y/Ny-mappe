@@ -111,6 +111,10 @@
 }
 
 @media (max-width: 600px) {
+  .heading_hero p {
+    left: 10rem;
+  }
+
   .et_bestilling {
     display: block;
   }
