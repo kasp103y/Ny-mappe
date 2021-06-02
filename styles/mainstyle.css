@@ -191,6 +191,13 @@ Keyframes
 
 burgerslut*/
 
+#baggrund {
+  background-image: url(billeder/urt.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 img,
 video {
   width: 100%;
@@ -207,10 +214,6 @@ video {
 
 main {
   padding: 1.5rem;
-}
-
-body {
-  background-color: #f2f2f2;
 }
 
 #heading_nav {
