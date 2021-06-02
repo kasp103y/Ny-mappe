@@ -4,20 +4,19 @@ font-family: 'Roboto', sans-serif; */
 /*burger*/
 
 #menu {
-  position: absolute;
   top: 0;
   left: 0;
-  width: 40vw;
+  width: 100vw;
   height: 100vh;
   background-color: #517349;
-  opacity: 90%;
+
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 20px;
-  z-index: 100;
+  position: fixed;
 
+  justify-content: center;
+  padding: 5rem;
+  z-index: 100;
   transform: translateX(-100%);
   transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
 }
@@ -80,14 +79,15 @@ font-family: 'Roboto', sans-serif; */
 #burger_btn {
   width: 40px;
   height: 40px;
-  position: relative;
+  position: sticky;
   z-index: 200;
+  margin: 1rem;
 }
 
 .stroke {
   width: 100%;
   height: 3px;
-  position: absolute;
+  position: sticky;
   top: calc(50% - 1.5px);
   left: 0;
   background-color: #21331d;
@@ -290,7 +290,6 @@ header {
 
 nav ul {
   padding: 1.5rem;
-
   overflow: hidden;
 }
 
@@ -300,7 +299,7 @@ nav ul {
   border: 0.125rem solid #517349;
   font-size: 1.5rem;
   margin-top: 5rem;
-  display: block;
+  display: inline-block;
   padding: 0.5rem;
   margin-bottom: 1rem;
   box-shadow: 0px 6px 8px grey;
@@ -333,7 +332,7 @@ address {
     margin: 10px 200px 10px 200px;
   }
 
-  nav ul {
+  #menu ul {
     display: flex;
     justify-content: end;
     gap: 6rem;
