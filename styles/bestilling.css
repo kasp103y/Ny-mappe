@@ -1,4 +1,4 @@
-.heading_hero p {
+.heading_hero h3 {
   position: relative;
   left: 48rem;
   color: #517349;
@@ -14,10 +14,60 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.button1 {
+  background-color: #517349;
+  color: white;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 6px 8px grey;
+
+  width: 8rem;
+
+  left: 8rem;
+  position: relative;
+  top: -1rem;
+}
+
+.button1:hover {
+  color: #517349;
+  background-color: white;
+}
+
+.et_bestilling .button {
+  width: 4rem;
+
+  left: 18rem;
+  position: relative;
+  top: -10rem;
+}
 .et_bestilling img {
   width: 30vw;
   left: 7%;
   position: relative;
+}
+.to_bestilling .button {
+  position: relative;
+  width: 55%;
+
+  top: -60px;
+
+  background: #517349;
+  color: white;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  display: inline-block;
+  padding: 0.5rem;
+  box-shadow: 0px 6px 8px grey;
+}
+
+.to_bestilling .button:hover {
+  color: #517349;
+  background-color: white;
 }
 
 .et_bestilling .ordre_info p {
@@ -49,8 +99,8 @@
 }
 
 @media (max-width: 600px) {
-  .heading_hero p {
-    left: 10rem;
+  .heading_hero h3 {
+    left: 1rem;
   }
 
   .et_bestilling {
@@ -69,6 +119,13 @@
     left: 5px;
   }
 
+  .et_bestilling .button {
+    left: 12rem;
+  }
+  .et_bestilling .button1 {
+    left: 2rem;
+  }
+
   .to_bestilling {
     display: block;
   }
@@ -83,4 +140,7 @@
     margin-top: 10px;
   }
 
-  
+  .to_bestilling .button {
+    width: auto;
+  }
+}
