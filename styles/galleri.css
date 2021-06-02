@@ -45,7 +45,7 @@
   grid-column: 3/5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .section_wrapper {
     display: block;
     gap: 2rem;

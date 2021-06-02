@@ -96,7 +96,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .heading_hero h3 {
     left: 1rem;
   }
