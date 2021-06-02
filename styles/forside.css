@@ -30,13 +30,13 @@ video {
 }
 
 #section_one {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 #section_two {
   background-color: #b6c6b8;
-  padding: 2rem;
   margin-bottom: 10rem;
+  padding: 1.5rem;
 }
 
 @media (min-width: 1300px) {
