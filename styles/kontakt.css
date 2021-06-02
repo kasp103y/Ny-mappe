@@ -5,6 +5,12 @@ h4 {
   font-size: 1rem;
 }
 
+#meet_the_staff p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
 #info_box {
   background-color: #acc1af;
   height: 25rem;
