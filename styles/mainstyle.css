@@ -191,6 +191,12 @@ Keyframes
 
 burgerslut*/
 
+/*#baggrund {
+  background-image: url(billeder/urt.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+
 img,
 video {
   width: 100%;
@@ -207,10 +213,6 @@ video {
 
 main {
   padding: 1.5rem;
-}
-
-body {
-  background-color: #f2f2f2;
 }
 
 #heading_nav {
@@ -264,6 +266,16 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  padding: 1.5rem;
+  margin-right: 4rem;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 li {
@@ -336,7 +348,7 @@ address {
     margin: 10px 200px 10px 200px;
   }
 
-  nav ul {
+  header nav ul {
     display: flex;
     justify-content: end;
     gap: 6rem;
