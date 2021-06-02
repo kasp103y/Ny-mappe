@@ -325,6 +325,7 @@ footer {
 
 address {
   font-style: normal;
+  padding-top: 0.6rem;
 }
 
 @media (min-width: 1000px) {
