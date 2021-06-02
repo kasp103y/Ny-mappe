@@ -6,6 +6,7 @@
 
 .et_bestilling {
   margin-top: 70px;
+  padding: 1.5rem;
 }
 
 .et_bestilling {
@@ -69,7 +70,7 @@
 
 .to_bestilling {
   background-color: #b6c6b8;
-  padding: 2em;
+  padding: 1.5rem;
   margin-bottom: 10rem;
 }
 
@@ -128,7 +129,7 @@
   .et_bestilling .ordre_info p {
     width: 85vw;
     position: relative;
-    left: 50px;
+    left: 20px;
   }
 
   .et_bestilling .hent {
