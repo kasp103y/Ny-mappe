@@ -105,6 +105,11 @@
   box-shadow: 0px 6px 8px grey;
 }
 
+.to_bestilling .inspiration:hover {
+  color: #517349;
+  background-color: white;
+}
+
 @media (max-width: 600px) {
   .et_bestilling {
     display: block;
