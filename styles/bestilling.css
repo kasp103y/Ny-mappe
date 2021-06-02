@@ -35,8 +35,8 @@
 .to_bestilling {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .to_bestilling p {
@@ -59,7 +59,7 @@
 
   .et_bestilling img {
     width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     margin-left: -5px;
   }
 
