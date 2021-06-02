@@ -44,7 +44,7 @@
 }
 .et_bestilling img {
   width: 100%;
-  left: 0rem;
+  left: -1.5rem;
   position: relative;
 }
 .to_bestilling .button {
@@ -70,7 +70,7 @@
 
 .et_bestilling .ordre_info p {
   position: relative;
-  left: 5rem;
+  left: 3rem;
 }
 
 .to_bestilling {
