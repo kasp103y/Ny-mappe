@@ -15,8 +15,20 @@
   margin-left: 2rem;
 }
 
-.mail #bestilling {
-  width: 50%;
+#full-name {
+  border-color: #517349;
+}
+
+#email {
+  border-color: #517349;
+}
+
+#Bestilling {
+  border-color: #517349;
+  margin-bottom: 1rem;
+}
+button .Button1 {
+  border-style: double;
 }
 
 .et_bestilling .button {
