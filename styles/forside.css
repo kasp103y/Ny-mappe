@@ -9,6 +9,16 @@
   z-index: 10;
 }
 
+#heading_1 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 6rem;
+  text-align: center;
+
+  border: 0.125rem solid white;
+  padding: 0.25rem;
+}
+
 #hero video {
   grid-area: 1/1;
   width: 100%;
