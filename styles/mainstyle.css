@@ -162,6 +162,7 @@ footer {
   font-family: "roboto", sans-serif;
   background-color: white;
   border-top: 0.125rem solid grey;
+  margin-top: 5rem;
 }
 
 address {
