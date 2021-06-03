@@ -15,28 +15,19 @@ video {
 main {
   max-width: 1000px;
   padding: 2rem;
-  margin-inline: auto;
+  margin: auto;
 }
 
 #heading_nav {
   color: #517349;
   font-family: "EB Garamond", serif;
   font-size: 3rem;
+  margin: 2rem;
 }
 
 #heading_nav:hover {
   border-bottom: none;
   color: #21331d;
-}
-
-#heading_1 {
-  color: white;
-  font-family: "EB Garamond", serif;
-  font-size: 6rem;
-  text-align: center;
-  margin: auto;
-  border: 0.125rem solid white;
-  padding: 0.25rem;
 }
 
 h1 {
@@ -45,8 +36,6 @@ h1 {
   font-size: 6rem;
   text-align: center;
   margin: auto;
-
-  padding: 0.25rem;
 }
 
 h2 {
@@ -121,17 +110,14 @@ nav ul {
   color: white;
   border: 0.125rem solid #517349;
   font-size: 1.5rem;
-  font-family: "EB Garamond", serif;
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: inline-block;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
   padding: 0.5rem;
   margin-bottom: 1rem;
   box-shadow: 0px 6px 8px grey;
-  width: 7rem;
-}
-
-.button a {
-  text-align: center;
 }
 
 .button:hover {
@@ -171,10 +157,6 @@ address {
 }
 
 @media (min-width: 1000px) {
-  main {
-    /* margin: 10px 200px 10px 200px; */
-  }
-
   header nav ul {
     display: flex;
     justify-content: end;
