@@ -40,6 +40,7 @@
 }
 .et_bestilling img {
   width: 100%;
+  height: 50%;
   left: -1.5rem;
   position: relative;
 }
