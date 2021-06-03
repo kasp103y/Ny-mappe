@@ -44,18 +44,43 @@
       <section id="info_box">
         <article id="contact_col">
           <h3>Kontakt</h3>
-          <div class="mail"><h4>Mail: <br>1336@interflora.dk</h4></div>
-          <div class="telefon"><h4>Telefon: <br>35 81 75 53</h4></div>
-          <div class="cvr"><h4>CVR: <br>DK 32 12 50 69</h4></div>
-          <div class="indehaver"><h4>Indehaver: <br>Anita Streit Kegel</h4></div>
-          <a class="button" href="mailto:1336@interflora.dk">Send oss mail</a> 
+          <div id="contact_wrapper">
+            <div class="mail"><h4>Mail: <br>1336@interflora.dk</h4></div>
+            <div class="telefon"><h4>Telefon: <br>35 81 75 53</h4></div>
+            <div class="cvr"><h4>CVR: <br>DK 32 12 50 69</h4></div>
+            <div class="indehaver"><h4>Indehaver: <br>Anita Streit Kegel</h4></div>
+          </div>
+          <!-- <a class="button" href="mailto:1336@interflora.dk">Send oss mail</a>  -->
+          <form action="tak.html" class="mail_form">
 
+            <h3>Send os en mail direkte</h3>
+            <h4><label for="Full-name ">Fulde navn</label></h4>
+            <input
+            id="full-name"
+            name="fname"
+            type="text">
+
+            <h4><label for="email">Din e-mail</label></h4>
+            <input
+            id="email"
+            name="email" 
+            type="email">
+
+           <h4><label for="Bestilling">Ønske/besked</label></h4>
+          <input 
+          id="Bestilling"
+          name="Bestilling"
+          type="bestilling">
+
+          <button class="insend_btn_kontakt">Indsend</button>
+          </form>
+          
           <h3>Åbningstider</h3>
+          <div class="open">
           <br>
-          <h4>Mandag til torsdag: 09:00 - 18:00</h4>
-          <h4>Fredag: 09:00 - 19:00</h4>
-          <h4>Lørdag: 09:00 - 14:00</h4>
-          <h4>Helligdage: 10:00 - 15:00</h4>
+          <h4 class="days_open">Mandag - torsdag: 09 - 18 <br>Fredag: 09 - 19<br>Lørdag: 09 - 14<br>Helligdage: 10 - 15</h4>
+          </div>
+          </article>
         </article>
        
         <article id="map_col">
