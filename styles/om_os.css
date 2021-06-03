@@ -20,10 +20,6 @@ iframe {
   object-fit: cover;
 }
 
-p {
-  line-height: 1.5;
-}
-
 #section_one_about {
   padding: 2em;
 }
@@ -38,12 +34,6 @@ p {
 #section_two_about figure {
   justify-content: center;
   text-align: center;
-}
-
-#section_two_about p {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
 }
 
 #section_two_about img {
