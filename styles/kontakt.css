@@ -34,6 +34,38 @@
   grid-column: 1 / 3;
 }
 
+button {
+  background-color: #517349;
+  color: white;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 6px 8px grey;
+}
+
+button:hover {
+  color: #517349;
+  background-color: white;
+}
+
+#fullname {
+  border-color: #517349;
+}
+
+#email {
+  border-color: #517349;
+}
+
+#Bestilling {
+  border-color: #517349;
+  margin-bottom: 1rem;
+  height: 2rem;
+}
+
 /* mød de ansatte */
 #meet_the_staff img {
   border-radius: 50%;
