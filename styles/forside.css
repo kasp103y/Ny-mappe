@@ -72,6 +72,11 @@ video {
   #hero_vid {
     display: none;
   }
+
+  #heading_1 {
+    border: none;
+  }
+
   #hero {
     background: url("philo.webp");
     background-size: cover;
