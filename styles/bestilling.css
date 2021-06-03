@@ -15,6 +15,27 @@
   margin-left: 2rem;
 }
 
+button {
+  background-color: #517349;
+  color: white;
+  border: 0.125rem solid #517349;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 6px 8px grey;
+  width: 7rem;
+  position: relative;
+  top: -2rem;
+}
+
+button:hover {
+  color: #517349;
+  background-color: white;
+}
+
 #full-name {
   border-color: #517349;
 }
@@ -37,7 +58,7 @@ button .Button1 {
 
   left: 20rem;
   position: relative;
-  top: -10rem;
+  top: -8rem;
 }
 .et_bestilling img {
   width: 100%;
