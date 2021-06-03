@@ -82,7 +82,7 @@
   margin-top: 6rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .et_bestilling {
     display: block;
   }
