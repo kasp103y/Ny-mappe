@@ -1,3 +1,9 @@
+#main_om_os {
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+
 video {
   display: block;
   margin-left: auto;
@@ -14,11 +20,11 @@ iframe {
   aspect-ratio: 9/16;
 }
 
-#splash img {
+/* #splash img {
   height: 45vw;
   width: 100vw;
   object-fit: cover;
-}
+} */
 
 #section_one_about {
   padding: 2rem;
