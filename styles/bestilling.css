@@ -1,7 +1,3 @@
-.heading_hero {
-  height: 10rem;
-}
-
 .et_bestilling {
   margin-top: 3rem;
   padding: 1.5rem;
@@ -43,8 +39,9 @@
   top: -10rem;
 }
 .et_bestilling img {
-  width: 30vw;
-  left: 7%;
+  width: 100%;
+  height: 50%;
+  left: -1.5rem;
   position: relative;
 }
 .to_bestilling .button {
@@ -69,9 +66,8 @@
 }
 
 .et_bestilling .ordre_info p {
-  width: 30vw;
   position: relative;
-  left: 66px;
+  left: 3rem;
 }
 
 .to_bestilling {
@@ -83,17 +79,19 @@
 .to_bestilling {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 1rem;
+  margin-top: -4rem;
   margin-bottom: 10rem;
 }
 
 .to_bestilling p {
-  margin-top: 10px;
+  margin-top: 2rem;
 }
 
 .to_bestilling img {
-  width: 30vw;
-  margin-left: 20px;
+  width: 79%;
+  margin-left: 3rem;
+  height: 54%;
+  margin-top: 6rem;
 }
 
 @media (max-width: 1300px) {
@@ -106,13 +104,13 @@
   }
 
   .et_bestilling img {
-    width: 90%;
     margin-bottom: 2rem;
-    margin-left: -5px;
+    margin-left: -1rem;
+    left: 1rem;
   }
 
   .et_bestilling .ordre_info p {
-    width: 85vw;
+    width: 100%;
     position: relative;
     left: 5px;
   }
@@ -128,14 +126,9 @@
     display: block;
   }
 
-  .to_bestilling h2 {
-    margin-bottom: 20px;
-  }
-
   .to_bestilling img {
     width: 100%;
     margin-left: 0;
-    margin-top: 10px;
   }
 
   .to_bestilling .button {
