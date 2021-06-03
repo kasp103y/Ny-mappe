@@ -55,6 +55,13 @@
   padding-top: 2rem;
 }
 
+.telefon,
+.cvr,
+.mail,
+.indehaver {
+  padding: 0.5rem;
+}
+
 /* mediaqueries */
 @media (min-width: 600px) {
   #meet_the_staff {
