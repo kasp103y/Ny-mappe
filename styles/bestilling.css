@@ -95,10 +95,6 @@
 }
 
 @media (max-width: 1300px) {
-  .heading_hero h3 {
-    left: 1rem;
-  }
-
   .et_bestilling {
     display: block;
   }
