@@ -26,9 +26,6 @@ button {
   padding: 0.5rem;
   margin-bottom: 1rem;
   box-shadow: 0px 6px 8px grey;
-  width: 7rem;
-  position: relative;
-  top: -2rem;
 }
 
 button:hover {
@@ -36,7 +33,7 @@ button:hover {
   background-color: white;
 }
 
-#full-name {
+#fullname {
   border-color: #517349;
 }
 
@@ -48,9 +45,6 @@ button:hover {
   border-color: #517349;
   margin-bottom: 1rem;
   height: 2rem;
-}
-button .Button1 {
-  border-style: double;
 }
 
 .et_bestilling .button {
